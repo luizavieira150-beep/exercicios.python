@@ -9,7 +9,7 @@ print("3 - Pastel - R$ 7.00\n")
 print("4 - Suco - R$ 5.00\n")
 print("5 - Cafe - R$ 3.00\n")
 
-cod = int(input("Digite o código")) #recebe o código, lê e armazena em cod
+cod = int(input("Digite o código: ")) #recebe o código, lê e armazena em cod
 
 if cod ==1: #condição se o codigo for igual a 1
     quantidade = int(input("Digite a quantidade: ")) #recebe a quantidade

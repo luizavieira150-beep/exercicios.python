@@ -7,7 +7,7 @@ altura = float(input("Digite sua altura: ")) #recebe altura e armazena em altura
 
 imc = peso / (altura * altura) #caslcula o imc
 
-print("IMC: ", imc, "\n") #exibe o imc
+print(f"IMC: {imc:.2f}") #exibe o imc
 
 if imc < 18.5: #condição se o imc for menor que 18.5
     print("Abaixo do peso") #exibe abaixo do peso

@@ -7,11 +7,11 @@ velocidade = float(input("Digite a velociddade do carro: ")) #recebe a velocidad
 
 percentual = (velocidade - limite) / limite * 100 # calcula o percentual acima do limite
 
-if velocidade <= limite:
-    print("Sem infração")
-elif velocidade <= 20:
-    print(percentual, " acima - Infração média")
-elif velocidade <= 50:
-    print(percentual, "acima - Infração grave")
+if velocidade <= limite: #se a velocidadefor menor que o limite
+    print("Sem infração") #exibe mensagem sem infração
+elif percentual <= 20: #se o percentual for menor ou igual 20
+    print(f"{percentual:.2f}% acima - Infração média") #exibe mensagem de infração média
+elif percentual <= 50: #se o percentual for menor ou igual a 50
+    print(f"{percentual:.2f}% acima - Infração grave") #exibe mensagem de infração grave
 else:
-    print(percentual, "acima - Infração gravíssima")
+    print(f"{percentual:.2f}% acima - Infração gravíssima") #se não exibe mensagem de infração gravíssima
