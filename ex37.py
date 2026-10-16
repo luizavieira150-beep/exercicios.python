@@ -6,6 +6,7 @@ num1 = int(input("Digite o primeiro número: ")) #le e armazena em num1
 num2 = int(input("Digite o segundo número: ")) #le e armazena em num2
 num3 = int(input("Digite o terceiro número: ")) #le e armazena em num3
 
+#condições, opções de ordens para os números
 if num1 <= num2 and num2 <= num3:
     print(f"Ordem: {num1} {num2} {num3}")
 elif num1 <= num3 and num3 <= num2:
